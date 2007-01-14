@@ -2,6 +2,7 @@
 %define	_snap	20070101
 #
 Summary:	KDE beryl settings
+Summary(pl):	Mened¿er ustawieñ beryla dla KDE
 Name:		kberylsettings
 Version:	0.1
 Release:	1
@@ -18,6 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The Beryl Settings Manager for KDE.
+
+%description -l pl
+Mened¿er ustawieñ beryla dla KDE.
 
 %prep
 %setup -q -n %{name}
