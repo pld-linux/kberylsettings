@@ -11,7 +11,7 @@ Group:		X11
 Source0:	%{name}-%{_snap}.tar.gz
 # Source0-md5:	982b2696816441906378626db2d3725b
 URL:		http://beryl-project.org/
-BuildRequires:	python-devel >= 2.5
+BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	rpm-pythonprov
 Requires:	beryl-core
 %pyrequires_eq  python-modules
