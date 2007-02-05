@@ -5,7 +5,7 @@ Summary:	KDE beryl settings
 Summary(pl):	Mened¿er ustawieñ beryla dla KDE
 Name:		kberylsettings
 Version:	0.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		X11
 Source0:	%{name}-%{_snap}.tar.gz
@@ -14,6 +14,8 @@ URL:		http://beryl-project.org/
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	rpm-pythonprov
 Requires:	beryl-core
+Requires:	beryl-settings-bindings
+Requires:	python-PyKDE
 %pyrequires_eq  python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
