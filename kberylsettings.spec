@@ -2,7 +2,7 @@
 %define	_snap	20070101
 #
 Summary:	KDE beryl settings
-Summary(pl.UTF-8):   Menedżer ustawień beryla dla KDE
+Summary(pl.UTF-8):	Menedżer ustawień beryla dla KDE
 Name:		kberylsettings
 Version:	0.1
 Release:	2
